@@ -1,0 +1,55 @@
+
+
+@media screen and (max-width: 800px) {
+    
+    .style-theme h1{
+        font-size: 18px;
+    }
+    .style-theme h2{
+        font-size: 16px;
+    }
+    .style-theme h5{
+        font-size: 14px;
+    }
+    .style-theme h6{
+        font-size: 12px;
+    }
+    .text-sosmed h4{
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .btn-portfolio .btn-theme{
+        font-size: 12px;
+    }
+    .btn-portfolio .btn-outline-theme{
+        font-size: 12px;
+    }
+    .address{
+        font-size: 12px;
+    }
+    .text-sosmed h4{
+        font-size: 0px;
+    }
+    .text-sosmed img{
+        transform: scale(0.8);
+    }
+    .socialmedia{
+        transform: scale(0.9);
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+  
+
+}
+
+@media screen and (max-width: 992px) {
+  
+
+}

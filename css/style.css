@@ -1,0 +1,211 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  transition: 300ms;
+}
+
+#loding{
+    margin-top: 20rem;
+}
+
+.bg-modal-custom{
+    background-color: rgba(0, 0, 0, 0.0) !important;
+}
+
+.bg-work{
+    background-color: #eaf2fd;
+    border-radius: 8px;
+}
+
+.bg-footer{
+    background-color: #eaf2fd;
+    border-radius: 8px;
+}
+
+.bg-copyright{
+    background-color: #2F80ED;
+    color: #fff;
+}
+
+section{
+    margin-top: 10rem;
+    position: relative; 
+}
+
+.section-header{
+    margin-top: 6.5rem;
+    position: relative; 
+}
+
+.img-empty{
+    background-size: 32% !important;
+}
+
+.text-theme{
+    color: #2F80ED;
+}
+
+.text-sosmed{
+    transition: 600ms;
+}
+
+.text-sosmed:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.style-theme h5{
+    font-weight: 800 !important;
+    color: #2F80ED;
+}
+
+
+.style-theme h1{
+    font-weight: 400;
+}
+
+.style-theme h2{
+    font-weight: 400;
+}
+
+.style-theme .bold{
+    font-weight: 800;    
+}
+
+.style-theme .light{
+    font-weight: 400;    
+}
+
+.style-theme .extra-bold{
+    font-weight: 900;    
+}
+
+.card-experience{
+    border: 2px solid #2F80ED;
+    color: #2F80ED;
+    transition: 600ms;
+}
+
+.card-experience:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0px 5px 20px #2f81ed9f;
+}
+
+.card-bg{
+    background-color: #eaf2fd;
+    border-radius: 32px;
+}
+
+.card-service{
+    transition: 600ms;
+    border: 2px solid transparent !important;
+}
+
+.card-service:hover{
+    transition: 600ms;
+    border: 2px solid #2F80ED !important;
+    cursor: pointer;
+}
+
+.card-skills{
+    transition: 600ms;
+    border: 2px solid transparent !important;
+}
+
+.card-skills:hover{
+    border: 2px solid #2F80ED !important;
+    cursor: pointer;
+}
+
+.card-contact{
+    background-color: #eaf2fd;
+    border-radius: 8px;
+    width: 75px;
+    height: 75px;
+}
+
+.card-portofolio{
+    transition: 600ms;
+    background-color: #eaf2fd;
+    border-radius: 16px;
+}
+
+.card-portofolio:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card .hr-card{
+    width: 80px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: #cacaca;
+}
+
+.hr-title{
+    width: 80px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: #cacaca;
+}
+
+.btn-theme{
+    background-color: #2F80ED !important;
+    transition: 600ms;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 0px 5px 20px #2f81ed9f;
+}
+
+.btn-theme:hover{
+    background-color: #205dac !important;
+    color: #fff;
+}
+
+.btn-outline-theme{
+    background-color: transparent !important;
+    border: 1px solid #cacaca;
+    transition: 600ms;
+    font-weight: bold;
+    color: #7e7e7e;
+}
+
+.btn-outline-theme:hover{
+    background-color: #2F80ED !important;
+    color: #fff;
+    box-shadow: 0px 5px 20px #2f81ed9f;
+    border: 1px solid #2F80ED;
+}
+
+.progress1{
+  width: 100%;
+}
+
+svg {
+  fill: none;
+  stroke-linecap: round;
+  }
+
+.tf-up{
+    transform: translateY(-75px);
+}
+
+.socialmedia{
+    width: 50px;
+    height: 50px;
+    background-color: #2F80ED;
+    border-radius: 50px;
+}
+
+/* Form */
+.input-custom{
+    transition: 600ms;
+    background-color: #eaf2fd;
+    border: 0px;
+}
