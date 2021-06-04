@@ -1,3 +1,5 @@
+import EffectAnimation from '../effect/effectAnimation.js';
+let animation = new EffectAnimation();
 export default class Contact {
     constructor(name) {
         this.name = name;
@@ -6,7 +8,7 @@ export default class Contact {
     model() {
         let html =
             `
-        <section id="contact" class="d-block">
+        <section id="contact" class="d-block animate__animated animate__zoomIn">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-12 mb-5 text-center">
@@ -87,10 +89,16 @@ export default class Contact {
         const content = document.querySelector("section#contact");
         if (bool == "true") {
             content.classList.replace("d-none", "d-block");
+            void content.offsetWidth
+            animation.addAnimation("section#contact", 'animate__zoomIn');
+
         } else if (bool == "false") {
             content.classList.replace("d-block", "d-none");
+            animation.addAnimation("section#contact", 'animate__zoomIn');
         } else {
             content.classList.replace("d-none", "d-block");
+            void content.offsetWidth
+            animation.addAnimation("section#contact", 'animate__zoomIn');
         }
     }
 

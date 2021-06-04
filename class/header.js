@@ -1,3 +1,5 @@
+import EffectAnimation from '../effect/effectAnimation.js';
+let animation = new EffectAnimation();
 export default class Header {
     constructor(name) {
         this.name = name;
@@ -6,7 +8,7 @@ export default class Header {
     model() {
         let html =
             `
-            <section id="header" class="section-header d-block">
+            <section id="header" class="section-header d-block animate__animated animate__zoomIn">
                 <div class="container">
                     <div class="card card-bg border-0 mb-5">
                         <div class="card-body p-0">
@@ -43,10 +45,17 @@ export default class Header {
         const content = document.querySelector("section#header");
         if (bool == "true") {
             content.classList.replace("d-none", "d-block");
+            void content.offsetWidth
+            animation.addAnimation("section#header", 'animate__zoomIn');
+
         } else if (bool == "false") {
             content.classList.replace("d-block", "d-none");
+            animation.addAnimation("section#header", 'animate__zoomIn');
         } else {
             content.classList.replace("d-none", "d-block");
+            void content.offsetWidth
+            animation.addAnimation("section#header", 'animate__zoomIn');
+
         }
     }
 }

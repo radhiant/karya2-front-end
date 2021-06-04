@@ -1,3 +1,5 @@
+import EffectAnimation from '../effect/effectAnimation.js';
+let animation = new EffectAnimation();
 export default class Myskills {
     constructor(name) {
         this.name = name;
@@ -6,7 +8,7 @@ export default class Myskills {
     model() {
         let html =
             `
-        <section id="myskills" class="d-block">
+        <section id="myskills" class="d-block animate__animated animate__zoomIn">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-12 mb-5 text-center">
@@ -134,10 +136,15 @@ export default class Myskills {
         const content = document.querySelector("section#myskills");
         if (bool == "true") {
             content.classList.replace("d-none", "d-block");
+            void content.offsetWidth
+            animation.addAnimation("section#myskills", 'animate__zoomIn');
         } else if (bool == "false") {
             content.classList.replace("d-block", "d-none");
+            animation.removeAnimation("section#myskills", 'animate__zoomIn');
         } else {
             content.classList.replace("d-none", "d-block");
+            void content.offsetWidth
+            animation.addAnimation("section#myskills", 'animate__zoomIn');
         }
     }
 }

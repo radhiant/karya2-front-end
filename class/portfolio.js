@@ -1,3 +1,6 @@
+import EffectAnimation from '../effect/effectAnimation.js';
+let animation = new EffectAnimation();
+
 export default class Portfolio {
     constructor(name) {
         this.name = name;
@@ -6,7 +9,7 @@ export default class Portfolio {
     model() {
         let html =
             `
-        <section id="portfolio" class="d-block">
+        <section id="portfolio" class="d-block animate__animated animate__zoomIn">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-12 text-center">
@@ -180,10 +183,15 @@ export default class Portfolio {
         const content = document.querySelector("section#portfolio");
         if (bool == "true") {
             content.classList.replace("d-none", "d-block");
+            void content.offsetWidth
+            animation.addAnimation("section#portfolio", 'animate__zoomIn');
         } else if (bool == "false") {
             content.classList.replace("d-block", "d-none");
+            animation.removeAnimation("section#portfolio", 'animate__zoomIn');
         } else {
             content.classList.replace("d-none", "d-block");
+            void content.offsetWidth
+            animation.addAnimation("section#portfolio", 'animate__zoomIn');
         }
     }
 }

@@ -1,3 +1,5 @@
+import EffectAnimation from '../effect/effectAnimation.js';
+let animation = new EffectAnimation();
 export default class Experience {
     constructor(name) {
         this.name = name;
@@ -6,7 +8,7 @@ export default class Experience {
     model() {
         let html =
             `
-        <section id="experience" class="d-block">
+        <section id="experience" class="d-block animate__animated animate__zoomIn">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-12 mb-5 text-center">
@@ -105,7 +107,7 @@ export default class Experience {
                 </div>
             </div>
         </section>
-        <section class="bg-work d-block" id="project">
+        <section class="bg-work d-block animate__animated animate__zoomIn" id="project">
             <div class="container">
                 <div class="row justify-content-center tf-up mb-5">
 
@@ -167,12 +169,22 @@ export default class Experience {
         if (bool == "true") {
             content.classList.replace("d-none", "d-block");
             content1.classList.replace("d-none", "d-block");
+            void content.offsetWidth
+            animation.addAnimation("section#experience", 'animate__zoomIn');
+            void content1.offsetWidth
+            animation.addAnimation("section#project", 'animate__zoomIn');
         } else if (bool == "false") {
             content.classList.replace("d-block", "d-none");
             content1.classList.replace("d-block", "d-none");
+            animation.removeAnimation("section#experience", 'animate__zoomIn');
+            animation.removeAnimation("section#project", 'animate__zoomIn');
         } else {
             content.classList.replace("d-none", "d-block");
             content1.classList.replace("d-none", "d-block");
+            void content.offsetWidth
+            animation.addAnimation("section#experience", 'animate__zoomIn');
+            void content1.offsetWidth
+            animation.addAnimation("section#project", 'animate__zoomIn');
         }
     }
 }

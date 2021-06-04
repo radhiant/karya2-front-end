@@ -1,3 +1,6 @@
+import EffectAnimation from '../effect/effectAnimation.js';
+let animation = new EffectAnimation();
+
 export default class Myservice {
     constructor(name) {
         this.name = name;
@@ -6,7 +9,7 @@ export default class Myservice {
     model() {
         let html =
             `
-        <section id="services" class="d-block">
+        <section id="services" class="d-block animate__animated animate__zoomIn">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-12 mb-5 text-center">
@@ -80,10 +83,15 @@ export default class Myservice {
         const content = document.querySelector("section#services");
         if (bool == "true") {
             content.classList.replace("d-none", "d-block");
+            void content.offsetWidth
+            animation.addAnimation("section#services", 'animate__zoomIn');
         } else if (bool == "false") {
             content.classList.replace("d-block", "d-none");
+            animation.removeAnimation("section#services", 'animate__zoomIn');
         } else {
             content.classList.replace("d-none", "d-block");
+            void content.offsetWidth
+            animation.addAnimation("section#services", 'animate__zoomIn');
         }
     }
 }

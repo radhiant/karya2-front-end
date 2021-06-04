@@ -10,6 +10,8 @@ import Contact from './class/contact.js';
 import Footer from './class/footer.js';
 import Modal from './class/modal.js';
 import Loading from './class/loading.js';
+import EffectAnimation from './effect/effectAnimation.js';
+
 
 let body = new Body();
 let navbar = new Navbar();
@@ -23,6 +25,7 @@ let contact = new Contact();
 let footer = new Footer();
 let modal = new Modal();
 let loading = new Loading();
+let animation = new EffectAnimation();
 
 const main = document.getElementById("main");
 
@@ -202,6 +205,8 @@ navContact.onclick = function () {
 btnChange.onclick = function () {
     const textChange = btnChange.value;
 
+    effect(btnChange, "#change");
+
     if (textChange == 'Dark') {
         body.changeTheme("dark");
         btnChange.value = "Light";
@@ -221,6 +226,8 @@ btnChange.onclick = function () {
 btnChange2.onclick = function () {
     const textChange2 = btnChange2.value;
 
+    effect(btnChange2, "#change2");
+
     if (textChange2 == 'Dark') {
         body.changeTheme("dark");
         btnChange.value = "Light";
@@ -235,6 +242,12 @@ btnChange2.onclick = function () {
         btnChange2.value = "Light";
     }
 
+}
+
+function effect(x, elemet) {
+    animation.removeAnimation(elemet, 'animate__bounceIn');
+    void x.offsetWidth
+    animation.addAnimation(elemet, 'animate__bounceIn');
 }
 
 function contentLoding() {

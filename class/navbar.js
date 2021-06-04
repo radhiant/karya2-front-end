@@ -10,7 +10,7 @@ export default class Navbar {
                 <div class="container p-3">
                     <a class="navbar-brand" href=""><img src="assets/logo-nav.png" width="200" draggable="false"></a>
                     <div class="d-flex">
-                        <button type="button" class="btn btn-dark rounded-pill me-2 theme1 d-lg-none" id="change" value="Dark">
+                        <button type="button" class="btn btn-dark rounded-pill me-2 theme1 d-lg-none animate__animated" id="change" value="Dark">
                                     <i class="bi bi-moon-fill"></i>
                                 </button>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -43,7 +43,7 @@ export default class Navbar {
                                 <a class="nav-link me-3" href="#" id="navcontact">Contact</a>
                             </li>
                             <li class="nav-item d-none d-lg-block">
-                                <button type="button" class="btn btn-dark rounded-pill me-2 theme2" id="change2" value="Dark">
+                                <button type="button" class="btn btn-dark rounded-pill me-2 theme2 animate__animated" id="change2" value="Dark">
                                     <i class="bi bi-moon-fill"></i>
                                 </button>
                             </li>
