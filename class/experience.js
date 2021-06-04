@@ -15,7 +15,7 @@ export default class Experience {
                     </div>
                     <div class="col-12">
 
-                        <div class="card border-0">
+                        <div class="card border-0 bg-timeline" id="cardTimeline">
                             <div class="card-body">
                                 <ul class="timeline timeline-left">
 
@@ -148,7 +148,7 @@ export default class Experience {
                 </div>
 
                 <div class="row mb-5">
-                    <div class="col-12 text-center">
+                    <div class="col-12 text-center ">
                         <h1 class="mb-5 fw-bold">I'm Available for freelancing</h1>
                         <a href="#" class="btn btn-theme rounded-pill mb-5 px-3">Let's Talk</a>
                         <br><br><br>

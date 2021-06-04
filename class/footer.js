@@ -6,7 +6,7 @@ export default class Footer {
     model() {
         let html =
             `
-        <footer class="bg-footer d-block">
+        <footer class="bg-footer d-block" id="footerC">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-9 col-12 text-center my-5">
@@ -68,7 +68,7 @@ export default class Footer {
                 </div>
             </div>
 
-            <div class="bg-copyright">
+            <div class="bg-copyright" id="footerCopy">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center p-3">

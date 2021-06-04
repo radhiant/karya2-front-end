@@ -13,6 +13,10 @@ body {
     margin-top: 20rem;
 }
 
+.bg-darkbody{
+    background-color: #121212 !important;
+}
+
 .bg-modal-custom{
     background-color: rgba(0, 0, 0, 0.0) !important;
 }
@@ -20,16 +24,39 @@ body {
 .bg-work{
     background-color: #eaf2fd;
     border-radius: 8px;
+    transition: 300ms;
+}
+
+.bg-work-dark{
+    background-color: #343a40;
+    border-radius: 8px;
+    transition: 300ms;
+    color:#fff !important;
 }
 
 .bg-footer{
     background-color: #eaf2fd;
     border-radius: 8px;
+    transition: 300ms;
+}
+
+.bg-footer-dark{
+    background-color: #343a40;
+    border-radius: 8px;
+    transition: 300ms;
+    color:#fff !important;
 }
 
 .bg-copyright{
     background-color: #2F80ED;
     color: #fff;
+    transition: 300ms;
+}
+
+.bg-copyright-dark{
+    background-color: #121212;
+    color: #fff;
+    transition: 300ms;
 }
 
 section{
@@ -92,6 +119,19 @@ section{
 }
 
 .card-experience:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0px 5px 20px #2f81ed9f;
+}
+
+.card-experience-dark{
+    border: 2px solid #2F80ED;
+    color: #fff;
+    background-color: #343a40;
+    transition: 600ms;
+}
+
+.card-experience-dark:hover{
     transform: scale(1.1);
     cursor: pointer;
     box-shadow: 0px 5px 20px #2f81ed9f;

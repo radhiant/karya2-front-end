@@ -15,7 +15,7 @@ export default class Myskills {
                     </div>
 
                     <div class="col-md-6 col-lg-3 style-theme">
-                        <div class="card border-0 shadow mb-4 card-skills">
+                        <div class="card border-0 shadow mb-4 card-skills bg-white text-dark">
                             <div class="card-body">
                                 <div id="progress1" class="p-3 fw-bold"></div>
                             </div>
@@ -27,7 +27,7 @@ export default class Myskills {
                     </div>
 
                     <div class="col-md-6 col-lg-3 style-theme">
-                        <div class="card border-0 shadow mb-4 card-skills">
+                        <div class="card border-0 shadow mb-4 card-skills bg-white text-dark">
                             <div class="card-body">
                                 <div id="progress2" class="p-3 fw-bold"></div>
                             </div>
@@ -39,7 +39,7 @@ export default class Myskills {
                     </div>
 
                     <div class="col-md-6 col-lg-3 style-theme">
-                        <div class="card border-0 shadow mb-4 card-skills">
+                        <div class="card border-0 shadow mb-4 card-skills bg-white text-dark">
                             <div class="card-body">
                                 <div id="progress3" class="p-3 fw-bold"></div>
                             </div>
@@ -51,7 +51,7 @@ export default class Myskills {
                     </div>
 
                     <div class="col-md-6 col-lg-3 style-theme">
-                        <div class="card border-0 shadow mb-4 card-skills">
+                        <div class="card border-0 shadow mb-4 card-skills bg-white text-dark">
                             <div class="card-body">
                                 <div id="progress4" class="p-3 fw-bold"></div>
                             </div>

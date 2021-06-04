@@ -17,6 +17,14 @@ export default class Body {
         const contactTheme2 = document.querySelector("#contact .style-theme");
         const lodingTheme = document.querySelector("#loding .card-body");
         const metaTheme = document.querySelector('meta[name="theme-color"]');
+        const cardSkills = document.querySelectorAll("#myskills .card-skills");
+        const cardService = document.querySelectorAll("#services .card-service");
+        const cardExp = document.querySelectorAll("#project .card");
+        const bgProject = document.querySelector("section#project");
+        const bgFooter = document.querySelector("footer#footerC");
+        const bgCopyright = document.querySelector("footer #footerCopy");
+        const bgTimeline = document.querySelector("#experience #cardTimeline");
+        const bgTimelineUl = document.querySelector("#experience #cardTimeline ul");
         let setTheme;
 
 
@@ -24,7 +32,7 @@ export default class Body {
             setTheme =
                 body.className = "bg-white";
             imgBrand.setAttribute("src", "assets/logo-nav.png");
-            nav.classList.replace("bg-dark", "bg-white");
+            nav.classList.replace("bg-darkbody", "bg-white");
             nav.classList.replace("navbar-dark", "navbar-light");
             btnTheme1.classList.replace("btn-light", "btn-dark");
             btnIcon1.classList.replace("bi-sun-fill", "bi-moon-fill");
@@ -39,13 +47,34 @@ export default class Body {
             contactTheme2.classList.replace("text-white", "text-black");
             lodingTheme.className = "card-body bg-white text-dark";
             metaTheme.setAttribute('content', '#fff');
+            bgProject.classList.replace("bg-work-dark", "bg-work");
+            bgFooter.classList.replace("bg-footer-dark", "bg-footer");
+            bgCopyright.classList.replace("bg-copyright-dark", "bg-copyright");
+            bgTimeline.classList.replace("bg-timeline-dark", "bg-timeline");
+            bgTimelineUl.classList.replace("timeline-dark", "timeline");
+            for (let i = 0; i < cardSkills.length; i++) {
+                cardSkills[i].classList.replace("bg-dark", "bg-white");
+                cardSkills[i].classList.replace("text-white", "text-dark");
+
+            }
+
+            for (let j = 0; j < cardService.length; j++) {
+                cardService[j].classList.replace("bg-dark", "bg-white");
+                cardService[j].classList.replace("text-white", "text-dark");
+
+            }
+
+            for (let k = 0; k < cardExp.length; k++) {
+                cardExp[k].classList.replace("card-experience-dark", "card-experience");
+
+            }
 
 
         } else if (theme == 'dark') {
             setTheme =
-                body.className = "bg-dark";
+                body.className = "bg-darkbody";
             imgBrand.setAttribute("src", "assets/logo-nav-light.png");
-            nav.classList.replace("bg-white", "bg-dark");
+            nav.classList.replace("bg-white", "bg-darkbody");
             nav.classList.replace("navbar-light", "navbar-dark");
             btnTheme1.classList.replace("btn-dark", "btn-light");
             btnIcon1.classList.replace("bi-moon-fill", "bi-sun-fill");
@@ -59,14 +88,32 @@ export default class Body {
             extTheme.classList.replace("text-black", "text-white");
             contactTheme1.classList.replace("text-black", "text-white");
             contactTheme2.classList.replace("text-black", "text-white");
-            lodingTheme.className = "card-body bg-dark text-white";
+            lodingTheme.className = "card-body bg-darkbody text-white";
             metaTheme.setAttribute('content', '#000');
+            bgProject.classList.replace("bg-work", "bg-work-dark");
+            bgFooter.classList.replace("bg-footer", "bg-footer-dark");
+            bgCopyright.classList.replace("bg-copyright", "bg-copyright-dark");
+            bgTimeline.classList.replace("bg-timeline", "bg-timeline-dark");
+            bgTimelineUl.classList.replace("timeline", "timeline-dark");
+            for (let i = 0; i < cardSkills.length; i++) {
+                cardSkills[i].classList.replace("bg-white", "bg-dark");
+                cardSkills[i].classList.replace("text-dark", "text-white");
+            }
+            for (let j = 0; j < cardService.length; j++) {
+                cardService[j].classList.replace("bg-white", "bg-dark");
+                cardService[j].classList.replace("text-dark", "text-white");
+            }
+            for (let k = 0; k < cardExp.length; k++) {
+                cardExp[k].classList.replace("card-experience", "card-experience-dark");
+
+
+            }
 
         } else {
             setTheme =
                 body.className = "bg-white";
             imgBrand.setAttribute("src", "assets/logo-nav.png");
-            nav.classList.replace("bg-dark", "bg-white");
+            nav.classList.replace("bg-darkbody", "bg-white");
             nav.classList.replace("navbar-dark", "navbar-light");
             btnTheme1.classList.replace("btn-light", "btn-dark");
             btnIcon1.classList.replace("bi-sun-fill", "bi-moon-fill");
@@ -81,6 +128,24 @@ export default class Body {
             contactTheme2.classList.replace("text-white", "text-black");
             lodingTheme.className = "card-body bg-white text-dark";
             metaTheme.setAttribute('content', '#fff');
+            bgProject.classList.replace("bg-work-dark", "bg-work");
+            bgFooter.classList.replace("bg-footer-dark", "bg-footer");
+            bgCopyright.classList.replace("bg-copyright-dark", "bg-copyright");
+            bgTimeline.classList.replace("bg-timeline-dark", "bg-timeline");
+            bgTimelineUl.classList.replace("timeline-dark", "timeline");
+            for (let i = 0; i < cardSkills.length; i++) {
+                cardSkills[i].classList.replace("bg-dark", "bg-white");
+                cardSkills[i].classList.replace("text-white", "text-dark");
+            }
+            for (let j = 0; j < cardService.length; j++) {
+                cardService[j].classList.replace("bg-dark", "bg-white");
+                cardService[j].classList.replace("text-white", "text-dark");
+            }
+            for (let k = 0; k < cardExp.length; k++) {
+                cardExp[k].classList.replace("card-experience-dark", "card-experience");
+
+
+            }
 
         }
 

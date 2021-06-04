@@ -15,7 +15,7 @@ export default class Myservice {
                     </div>
 
                     <div class="col-md-6 col-lg-4">
-                        <div class="card border-0 mb-4 shadow card-service">
+                        <div class="card border-0 mb-4 shadow card-service bg-white text-dark">
                             <div class="card-body text-center">
                                 <img src="assets/service/services1.png" width="50%" class="img mb-3">
                                 <h4 class="text-center fw-bold mb-4">Web Design</h4>
@@ -24,7 +24,7 @@ export default class Myservice {
                     </div>
 
                     <div class="col-md-6 col-lg-4">
-                        <div class="card border-0 mb-4 shadow card-service">
+                        <div class="card border-0 mb-4 shadow card-service bg-white text-dark">
                             <div class="card-body text-center">
                                 <img src="assets/service/services2.png" width="50%" class="img mb-3">
                                 <h4 class="text-center fw-bold mb-4">Mobile App Design</h4>
@@ -33,7 +33,7 @@ export default class Myservice {
                     </div>
 
                     <div class="col-md-6 col-lg-4">
-                        <div class="card border-0 mb-4 shadow card-service">
+                        <div class="card border-0 mb-4 shadow card-service bg-white text-dark">
                             <div class="card-body text-center">
                                 <img src="assets/service/services3.png" width="50%" class="img mb-3">
                                 <h4 class="text-center fw-bold mb-4">Digital Marketing</h4>
@@ -42,7 +42,7 @@ export default class Myservice {
                     </div>
 
                     <div class="col-md-6 col-lg-4">
-                        <div class="card border-0 mb-4 shadow card-service">
+                        <div class="card border-0 mb-4 shadow card-service bg-white text-dark">
                             <div class="card-body text-center">
                                 <img src="assets/service/services4.png" width="50%" class="img mb-3">
                                 <h4 class="text-center fw-bold mb-4">Logo Design</h4>
@@ -51,7 +51,7 @@ export default class Myservice {
                     </div>
 
                     <div class="col-md-6 col-lg-4">
-                        <div class="card border-0 mb-4 shadow card-service">
+                        <div class="card border-0 mb-4 shadow card-service bg-white text-dark">
                             <div class="card-body text-center">
                                 <img src="assets/service/services5.png" width="50%" class="img mb-3">
                                 <h4 class="text-center fw-bold mb-4">UI & UX Design</h4>
@@ -60,7 +60,7 @@ export default class Myservice {
                     </div>
 
                     <div class="col-md-6 col-lg-4">
-                        <div class="card border-0 mb-4 shadow card-service">
+                        <div class="card border-0 mb-4 shadow card-service bg-white text-dark">
                             <div class="card-body text-center">
                                 <img src="assets/service/services6.png" width="50%" class="img mb-3">
                                 <h4 class="text-center fw-bold mb-4">Business card Design</h4>
