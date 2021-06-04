@@ -27,21 +27,21 @@ export default class Portfolio {
 
                 <div class="row mb-5 justify-content-center" id="gallery">
                     <div class="col-md-6">
-                        <img src="assets/portfolio/portofolio1.png" width="100%" class="card-portofolio mb-4 img-folio" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="assets/portfolio/portofolio1.png" width="100%" class="card-portofolio mb-4 img-folio animate__animated animate__bounceIn animate__animated animate__bounceIn" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     </div>
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-6">
-                                <img src="assets/portfolio/portofolio2.png" width="100%" class="card-portofolio mb-4 img-folio" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="assets/portfolio/portofolio2.png" width="100%" class="card-portofolio mb-4 img-folio animate__animated animate__bounceIn animate__animated animate__bounceIn" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             </div>
                             <div class="col-6">
-                                <img src="assets/portfolio/portofolio4.png" width="100%" class="card-portofolio mb-4 img-folio" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="assets/portfolio/portofolio4.png" width="100%" class="card-portofolio mb-4 img-folio animate__animated animate__bounceIn animate__animated animate__bounceIn" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             </div>
                             <div class="col-6">
-                                <img src="assets/portfolio/portofolio5.png" width="100%" class="card-portofolio mb-4 img-folio" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="assets/portfolio/portofolio5.png" width="100%" class="card-portofolio mb-4 img-folio animate__animated animate__bounceIn animate__animated animate__bounceIn" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             </div>
                             <div class="col-6">
-                                <img src="assets/portfolio/portofolio3.png" width="100%" class="card-portofolio mb-4 img-folio" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="assets/portfolio/portofolio3.png" width="100%" class="card-portofolio mb-4 img-folio animate__animated animate__bounceIn animate__animated animate__bounceIn" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             </div>
                         </div>
                     </div>
@@ -57,21 +57,21 @@ export default class Portfolio {
         let html = portfolioGalery.innerHTML =
             `
             <div class="col-md-6">
-                <img src="assets/portfolio/portofolio1.png" width="100%" class="card-portofolio mb-4 img-folio" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="assets/portfolio/portofolio1.png" width="100%" class="card-portofolio mb-4 img-folio animate__animated animate__bounceIn" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
             </div>
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-6">
-                        <img src="assets/portfolio/portofolio2.png" width="100%" class="card-portofolio mb-4 img-folio" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="assets/portfolio/portofolio2.png" width="100%" class="card-portofolio mb-4 img-folio animate__animated animate__bounceIn" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     </div>
                     <div class="col-6">
-                        <img src="assets/portfolio/portofolio4.png" width="100%" class="card-portofolio mb-4 img-folio" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="assets/portfolio/portofolio4.png" width="100%" class="card-portofolio mb-4 img-folio animate__animated animate__bounceIn" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     </div>
                     <div class="col-6">
-                        <img src="assets/portfolio/portofolio5.png" width="100%" class="card-portofolio mb-4 img-folio" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="assets/portfolio/portofolio5.png" width="100%" class="card-portofolio mb-4 img-folio animate__animated animate__bounceIn" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     </div>
                     <div class="col-6">
-                        <img src="assets/portfolio/portofolio3.png" width="100%" class="card-portofolio mb-4 img-folio" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="assets/portfolio/portofolio3.png" width="100%" class="card-portofolio mb-4 img-folio animate__animated animate__bounceIn" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@ export default class Portfolio {
         let html = portfolioGalery.innerHTML =
             `
                 <div class="col-md-9">
-                    <img src="assets/portfolio/portofolio1.png" width="100%" class="card-portofolio mb-4 img-folio" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="assets/portfolio/portofolio1.png" width="100%" class="card-portofolio mb-4 img-folio animate__animated animate__bounceIn" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 </div>
             `;
 
@@ -99,10 +99,10 @@ export default class Portfolio {
             <div class="col-md-9">
                 <div class="row">
                     <div class="col-6">
-                        <img src="assets/portfolio/portofolio2.png" width="100%" class="card-portofolio mb-4 img-folio" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="assets/portfolio/portofolio2.png" width="100%" class="card-portofolio mb-4 img-folio animate__animated animate__bounceIn" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     </div>
                     <div class="col-6">
-                        <img src="assets/portfolio/portofolio3.png" width="100%" class="card-portofolio mb-4 img-folio" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="assets/portfolio/portofolio3.png" width="100%" class="card-portofolio mb-4 img-folio animate__animated animate__bounceIn" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     </div>
                 </div>
             </div>
@@ -116,7 +116,7 @@ export default class Portfolio {
         let html = portfolioGalery.innerHTML =
             `
                 <div class="col-md-9">
-                    <div class="card card-bg border-0">
+                    <div class="card card-bg border-0 animate__animated animate__bounceIn">
                         <div class="card-body text-center">
                             <img src="assets/portfolio/empty.svg" width="60%" class="img-empty mt-4"/>
                             <h2 class="my-5">Don't have experience yet</h2>
@@ -135,10 +135,10 @@ export default class Portfolio {
             <div class="col-md-9">
                 <div class="row">
                     <div class="col-6">
-                        <img src="assets/portfolio/portofolio4.png" width="100%" class="card-portofolio mb-4 img-folio" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="assets/portfolio/portofolio4.png" width="100%" class="card-portofolio mb-4 img-folio animate__animated animate__bounceIn" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     </div>
                     <div class="col-6">
-                        <img src="assets/portfolio/portofolio5.png" width="100%" class="card-portofolio mb-4 img-folio" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="assets/portfolio/portofolio5.png" width="100%" class="card-portofolio mb-4 img-folio animate__animated animate__bounceIn" onclick="getImage(this.src)" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     </div>
                 </div>
             </div>
