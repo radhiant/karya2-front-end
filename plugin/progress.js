@@ -254,39 +254,39 @@ $(document).ready(function () {
 
 
     bar1.text.style.fontFamily = '"Open Sans", sans-serif';
-    bar1.text.style.fontSize = '2.5rem';
+    bar1.text.style.fontSize = '2rem';
     bar1.animate(0.9);  // Number from 0.0 to 1.0
 
     bar2.text.style.fontFamily = '"Open Sans", sans-serif';
-    bar2.text.style.fontSize = '2.5rem';
+    bar2.text.style.fontSize = '2rem';
     bar2.animate(0.9);  // Number from 0.0 to 1.0
 
     bar3.text.style.fontFamily = '"Open Sans", sans-serif';
-    bar3.text.style.fontSize = '2.5rem';
+    bar3.text.style.fontSize = '2rem';
     bar3.animate(0.85);  // Number from 0.0 to 1.0
 
     bar4.text.style.fontFamily = '"Open Sans", sans-serif';
-    bar4.text.style.fontSize = '2.5rem';
+    bar4.text.style.fontSize = '2rem';
     bar4.animate(0.80);  // Number from 0.0 to 1.0
 
     bar5.text.style.fontFamily = '"Open Sans", sans-serif';
-    bar5.text.style.fontSize = '2.5rem';
+    bar5.text.style.fontSize = '2rem';
     bar5.animate(0.85);  // Number from 0.0 to 1.0
 
     bar6.text.style.fontFamily = '"Open Sans", sans-serif';
-    bar6.text.style.fontSize = '2.5rem';
+    bar6.text.style.fontSize = '2rem';
     bar6.animate(0.8);  // Number from 0.0 to 1.0
 
     bar7.text.style.fontFamily = '"Open Sans", sans-serif';
-    bar7.text.style.fontSize = '2.5rem';
+    bar7.text.style.fontSize = '2rem';
     bar7.animate(0.9);  // Number from 0.0 to 1.0
 
     bar8.text.style.fontFamily = '"Open Sans", sans-serif';
-    bar8.text.style.fontSize = '2.5rem';
+    bar8.text.style.fontSize = '2rem';
     bar8.animate(0.9);  // Number from 0.0 to 1.0
 
     bar9.text.style.fontFamily = '"Open Sans", sans-serif';
-    bar9.text.style.fontSize = '2.5rem';
+    bar9.text.style.fontSize = '2rem';
     bar9.animate(0.85);  // Number from 0.0 to 1.0
 
 });
