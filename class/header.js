@@ -17,8 +17,8 @@ export default class Header {
                                     </div>
                                     <img src="assets/man1.png" width="100%" class="d-block d-md-none mb-5">
                                     <h5 class="mb-3 mt-lg-5">Hello!</h5>
-                                    <h1 class="mb-3">I'm <b class="extra-bold">Web Designer</b></h1>
-                                    <h2 class="mb-3">A Freelance UI/UX Designer</h2>
+                                    <h1 class="mb-3">I'm <b class="extra-bold">Web Programming</b></h1>
+                                    <h2 class="mb-3">A Freelance Fullstack Website</h2>
                                     <div class="my-4">
                                         <a href="#" class="btn btn-theme me-3 rounded-pill px-3">Hire me</a>
                                         <a href="#" class="btn btn-outline-theme rounded-pill px-3">My work</a>

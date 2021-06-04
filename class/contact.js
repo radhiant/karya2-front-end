@@ -20,7 +20,7 @@ export default class Contact {
                                     <img src="assets/contact/pin.svg" width="100%">
                                 </div>
                             </div>
-                            <h6 class="mt-4 address">198 West 21th Street, Suite 721 New York NY 10016R</h6>
+                            <h6 class="mt-4 address">Sumedang, Jawa Barat</h6>
                         </div>
 
                         <div class="d-flex mb-4">
@@ -29,7 +29,7 @@ export default class Contact {
                                     <img src="assets/contact/phone-call.svg" width="100%">
                                 </div>
                             </div>
-                            <h6 class="mt-4">+00 1234 5678</h6>
+                            <h6 class="mt-4">+62 8781 7379 229</h6>
                         </div>
 
                         <div class="d-flex mb-4">
@@ -38,7 +38,7 @@ export default class Contact {
                                     <img src="assets/contact/send.svg" width="100%">
                                 </div>
                             </div>
-                            <h6 class="mt-4">example@gmail.com</h6>
+                            <h6 class="mt-4">radhiantsobarna@gmail.com</h6>
                         </div>
 
                         <div class="d-flex mb-4">
@@ -47,7 +47,7 @@ export default class Contact {
                                     <img src="assets/contact/world.svg" width="100%">
                                 </div>
                             </div>
-                            <h6 class="mt-4">www.example.com</h6>
+                            <h6 class="mt-4"> <a href="https://radhiant.github.io" target="_blank">www.radhiant.github.io</a></h6>
                         </div>
 
                     </div>

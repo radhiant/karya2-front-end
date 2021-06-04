@@ -33,7 +33,7 @@ export default class About {
                                     <h6 class="mb-5 light">Sumedang</h6>
                                     <h6 class="mb-5 light">45371</h6>
                                     <h6 class="mb-5 light">radhiantsobarna@gmail.com</h6>
-                                    <h6 class="mb-4 light">+6287817379228</h6>
+                                    <h6 class="mb-4 light">+6287817379229</h6>
                                 </div>
                             </div>
                             <div class="text-center text-md-start">

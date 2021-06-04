@@ -95,6 +95,7 @@ export default class Body {
             bgCopyright.classList.replace("bg-copyright", "bg-copyright-dark");
             bgTimeline.classList.replace("bg-timeline", "bg-timeline-dark");
             bgTimelineUl.classList.replace("timeline", "timeline-dark");
+
             for (let i = 0; i < cardSkills.length; i++) {
                 cardSkills[i].classList.replace("bg-white", "bg-dark");
                 cardSkills[i].classList.replace("text-dark", "text-white");

@@ -140,6 +140,13 @@ section{
 .card-bg{
     background-color: #eaf2fd;
     border-radius: 32px;
+    transition: 300ms;
+}
+
+.card-bg-dark{
+    background-color: #343a40;
+    border-radius: 32px;
+    transition: 300ms;
 }
 
 .card-service{
